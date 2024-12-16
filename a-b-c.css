@@ -1,0 +1,190 @@
+header .logo{
+    font-size: 1.7rem;
+    color: #000;
+}
+
+/********* ABOUT PAGE *******/
+
+.main1,
+.content-Aut{
+    width: 100%;
+    position: relative;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.a1{
+    font-size: 5pc;
+}
+
+.main1{
+    width: 100%;
+    position: relative;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.main1 h3{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.about-images,
+.author-img{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    margin-top: 30px;
+}
+
+.about-images img{
+    width: 75%;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-radius: 5px;
+    position: relative;
+}
+
+.book-title{
+    font-size: 5pc;
+}
+
+.author-img img{
+    width: 85%;
+    border-radius: 5px;
+}
+
+.about-content p{
+    font-size: 30px;
+}
+
+.about-content,
+.author-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.author-text p{
+    font-size: 30px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+.author-text p span{
+    color: #ff0000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.author-text{
+    display: inline-block;
+    width: 100%;
+}
+
+.content-Aut h3{
+    margin: 10px;
+    font-size: 30px;
+}
+
+/************ GALLERY PAGE ********/
+
+.box-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.about-title{
+    margin-top: 40px;
+}
+
+.bg-content .img0{
+    width: 100%;
+}
+
+.bg-content .imgText1{
+    margin: 20px;
+}
+
+.bg-content img{
+    width: 100%;
+}
+
+.pic-content{
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 50px 8%;
+    margin-top: 40px;
+}
+.gallery1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.pic-content .gallery1 img{
+    width: 100%;
+}
+
+.l-1{
+    color: #f00;
+}
+.l-2{
+    color: #2200ff;
+}
+.l-3{
+    color: #d9ff00;
+}
+
+.contact{
+    margin-bottom: 20%;
+}
+
+/*********** background animation ********/
+
+.containers{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bubbles{
+    position: relative;
+    display: flex;
+}
+
+.bubbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50px;
+    box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc,0 0 100px #4fc3dc;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(130s / var(--i));
+}
+
+.bubbles span:nth-child(even){
+    background: #ff2d75;
+    box-shadow: 0 0 0 10px #ff2d7544, 0 0 50px #ff2d75,0 0 100px #ff2d75;
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+}
