@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon (2).ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Chidera Akwa-Eke Ekech Book Store</title>
+    <link rel="stylesheet" href="output.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #e3e2e2;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 0.5rem 0;
+        text-align: center;
+    }
+
+    .container h1 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .books {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .book {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        width: 450px;
+        padding: 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+    }
+
+    .book:hover {
+        transform: scale(1.05);
+    }
+
+    .book img {
+        max-width: 100%;
+        border-radius: 4px;
+    }
+
+    .book-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 0;
+        color: #444;
+    }
+
+    .buy-button {
+        display: inline-block;
+        background-color: #007BFF;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+    .buy-button:hover {
+        background-color: #0056b3;
+    }
+    .footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #333;
+        color: white;
+        margin-top: 2rem;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="flex w-full pl-8">
+            <a href="index.html" class="text-4xl text-white cursor-pointer hover:border-2 rounded-lg transition ease-out duration-500"><i class='bx bx-left-arrow-alt'></i></a>
+            <div class="flex justify-center w-full">
+                <h1 class="text-xl text-center font-bold text-white sm:text-4xl">Buy Books by Chidera Ekechi</h1>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="books">
+            <!-- Book 1 -->
+            <div class="book">
+                <img src="images/Sell-book-4.jpg" alt="Book 4">
+                <div class="book-title">A Woman's Worth</div>
+                <div class="book-details">
+                    <p class="book-description mb-5">
+                        " Click here to BUY "A Woman's Worth" Now
+                    </p>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 Chidera Ekechi. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

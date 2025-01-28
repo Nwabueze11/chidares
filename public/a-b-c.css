@@ -40,7 +40,7 @@ header .logo{
 }
 
 .about-images img{
-    width: 75%;
+    /* width: 75%; */
     top: 0;
     right: 0;
     left: 0;
@@ -53,7 +53,7 @@ header .logo{
 }
 
 .author-img img{
-    width: 85%;
+    /* width: 85%; */
     border-radius: 5px;
 }
 

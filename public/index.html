@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
-    <header class=" dark:bg-gray-800 shadow-md py-4 px-6 flex justify-between items-center">
+    <header class=" dark:bg-gray-800 shadow-md py-4 pl-6 flex justify-between items-center">
         <a href="#" class="logo">Chidera Akwa-Eke Ekechi</a>
         <div class="main-navigation">
             <button class="menu-toggle">
                 <span></span><span></span>
             </button>
-            <nav class="header-menu">
+            <nav class="header-menu py-6">
                 <ul class="manu">
                     <li><a class="active" href="#home">HOME</a></li>
                     <li><a class="active" href="about.html">ABOUT</a></li>
@@ -24,14 +24,15 @@
                     <li><a class="active" href="gallery.html">GALLERY</a></li>
                     <li><a class="active" href="contact.html">CONTACT</a></li>
                 </ul>
+                <div class="non">
+                    <a href="buy.html" class="buy"><i class='bx bx-cart'></i> Buy Now</a>
+                </div>
             </nav>
         </div>
         <div class="none">
-        <button id="theme-toggle" class="flex items-center px-3 py-2 bg-gray-300 dark:bg-gray-700 rounded transition">
-            <span class="light-hidden">🌙 Dark Mode</span>
-            <span class="dark-hidden">☀️ Light Mode</span>
-        </button>
+            <a href="buy.html" class="buy"><i class='bx bx-cart'></i> Buy Now</a>
         </div>
+        
     </header>
 
     <section id="home" class="home">
@@ -46,7 +47,7 @@
             <div class="content-ro cr-1">
                 <div class="col5">
                     <div class="about-image">
-                        <img src="images/about-9.jpg" alt="">
+                        <img src="images/about-9.jpg" class="img-c" alt="">
                     </div>
                 </div>
                 <div class="col5">
@@ -71,7 +72,7 @@
             </div>
             <div class="col50">
                 <div class="imgBx">
-                    <img src="images/book.jpg" alt="">
+                    <img src="images/book.jpg" class="img-c" alt="">
                 </div>
             </div>
         </div>
@@ -84,15 +85,15 @@
             <div class="text-center md:text-left max-w-lg">
                 <h1 class="text-4xl md:text-5xl font-bold mb-4">Discover Your Next Favorite Book</h1>
                 <p class="text-lg md:text-xl mb-6">
-                    Get a copy of <strong>"The Journey of Wonders"</strong> and embark on an unforgettable adventure.
+                    Get a copy of <strong>"A Woman's Worth"</strong> and embark on an unforgettable adventure.
                 </p>
-                <a href="#" class="inline-block bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-3 rounded-md transition duration-300">
+                <a href="buy.html" class="inline-block bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-3 rounded-md transition duration-300">
                     Buy Now
                 </a>
             </div>
             <!-- Book Image -->
             <div>
-                <img src="images/book-1.jpg" alt="Book Cover" class="w-48 md:w-64 shadow-lg rounded-lg">
+                <img src="images/Sell-book-5.jpg" alt="Book Cover" class="w-48 md:w-64 shadow-lg rounded-lg">
             </div>
         </div>
     </section>
@@ -107,66 +108,17 @@
             <!-- Appointment Content -->
             <div class="text-center md:text-left max-w-lg">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-800">Meet the Author</h2>
-                <p class="text-lg text-gray-600 mb-6">
+                <p class="text-xl text-gray-600 mb-6">
                     Want to discuss the book or schedule a personalized session with the author? Book your appointment today!
                 </p>
-                <a href="#" class="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-semibold px-6 py-3 rounded-md transition duration-300">
+                <a href="contact.html" class="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-semibold px-6 py-3 rounded-md transition duration-300">
                     Book Appointment
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="py-16 px-8">
-        <div class="container mx-auto">
-            <h2 class="text-3xl font-bold text-center mb-8">My Projects</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-                <!-- Project Card -->
-                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-                    <img src="images/book-3.jpg" alt="Project 1" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-bold mb-2">Project Title 1</h3>
-                        <p class="text-gray-600 dark:text-gray-300 mb-4">Short project description showcasing your work.</p>
-                        <a href="#" class="text-blue-500 hover:underline">View Project →</a>
-                    </div>
-                </div>
-                <!-- Repeat for more projects -->
-                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-                    <img src="images/book.jpg" alt="Project 2" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-bold mb-2">Project Title 2</h3>
-                        <p class="text-gray-600 dark:text-gray-300 mb-4">Another short project description here.</p>
-                        <a href="#" class="text-blue-500 hover:underline">View Project →</a>
-                    </div>
-                </div>
-                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-                    <img src="images/book-2.jpg" alt="Project 2" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-bold mb-2">Project Title 2</h3>
-                        <p class="text-gray-600 dark:text-gray-300 mb-4">Another short project description here.</p>
-                        <a href="#" class="text-blue-500 hover:underline">View Project →</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="bg-gray-200 dark:bg-gray-700 py-16 px-8">
-        <div class="container mx-auto">
-            <h2 class="text-3xl font-bold text-center mb-8">My Skills</h2>
-            <div class="flex flex-wrap justify-center gap-4">
-                <!-- Skill Tags -->
-                <span class="bg-gray-300 dark:bg-gray-600 text-gray-800 dark:text-gray-200 px-4 py-2 rounded-full">HTML</span>
-                <span class="bg-gray-300 dark:bg-gray-600 text-gray-800 dark:text-gray-200 px-4 py-2 rounded-full">CSS</span>
-                <span class="bg-gray-300 dark:bg-gray-600 text-gray-800 dark:text-gray-200 px-4 py-2 rounded-full">JavaScript</span>
-                <span class="bg-gray-300 dark:bg-gray-600 text-gray-800 dark:text-gray-200 px-4 py-2 rounded-full">Tailwind CSS</span>
-                <span class="bg-gray-300 dark:bg-gray-600 text-gray-800 dark:text-gray-200 px-4 py-2 rounded-full">React</span>
-                <span class="bg-gray-300 dark:bg-gray-600 text-gray-800 dark:text-gray-200 px-4 py-2 rounded-full">Node.js</span>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- Contact Form -->
 
@@ -208,20 +160,17 @@
                 <h5>CHIDERA AKWA-EKE EKECHI</h5>
                 <div class="textwidget">
                     <div class="separator  transparent   " style="margin-top: 0px;margin-bottom: 35px;height: 0px;"></div>
-                    <font>© 2024 Chidera Akwa-Eke Ekechi | All Right Reserved</font>
+                    <font>© 2025 Chidera Akwa-Eke Ekechi | All Right Reserved</font>
                     <div class="separator  transparent   " style="margin-top: 0px;margin-bottom: 35px;height: 0px;"></div>
                 </div>
                 <div class="widget-icon">
-                    <div class="borde">
+                    <div class="border">
                         <a href="https://www.facebook.com/share/p/4gFfiRVLxyrAvtpj/"><i class="bx bxl-facebook"></i></a>
-                        <a href="#" class="mr-20 hover:text-blue-400">LinkedIn</a>
-                        <a href="#" class=" mr-20 hover:text-blue-400">GitHub</a>
-                        <a href="#" class="hover:text-blue-400">Twitter</a>
                     </div>
                 </div>
             </div>
             <div class="container mx-auto text-center">
-                <p class="text-white">&copy; 2024 Your Name. All Rights Reserved.</p>
+                <p class="text-white">&copy; 2025 Your Name. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
